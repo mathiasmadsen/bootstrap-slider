@@ -661,7 +661,7 @@ const windowIsDefined = (typeof window === "object");
 			if(this.options.orientation === 'vertical') {
 				this._addClass(this.sliderElem,'slider-vertical');
 				this.stylePos = 'top';
-				this.mousePos = 'pageY';
+				this.mousePos = 'ClientY';
 				this.sizePos = 'offsetHeight';
 			} else {
 				this._addClass(this.sliderElem, 'slider-horizontal');
